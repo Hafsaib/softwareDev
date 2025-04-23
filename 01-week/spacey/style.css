@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* This is the full header */
 header {
   display: flex;
   flex-direction: row;
@@ -11,12 +11,25 @@ header {
   padding: 1.5rem;
   width: 100%;
   align-items: center;
+  letter-spacing: 2px;
+}
+/* This is for h1 of the header */
+header h1 {
+  padding: 10px;
+  font-size: 2rem;
 }
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 60%;
+  width: 70%;
 }
 .nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+.nav a:hover {
+  color: rgb(28, 9, 235);
+  transform: scale(1.2);
 }
